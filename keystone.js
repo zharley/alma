@@ -16,6 +16,7 @@ keystone.init({
   'views': 'templates/views',
   'view engine': '.hbs',
   'signin logo': ['/images/logo.jpg', 200, 113],
+  'cookie secret': process.env.COOKIE_SECRET,
 
   'custom engine': handlebars.create({
     layoutsDir: 'templates/views/layouts',
