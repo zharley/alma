@@ -1,0 +1,6 @@
+#! /bin/bash
+set -e
+
+echo "=> Wiping all records from local [alma] database."
+mongo alma --eval "db.dropDatabase();"
+echo "=> Done."
