@@ -60,3 +60,5 @@ typings/
 # macos meta data files
 .DS_Store
 
+# data files
+doc/
