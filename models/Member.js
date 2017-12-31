@@ -19,7 +19,7 @@ Member.add({
   address: { type: Types.Text },
   city: { type: Types.Text },
   province: { type: Types.Text },
-  postalcode: { type: Types.Text },
+  postalCode: { type: Types.Text },
   country: { type: Types.Text },
   phone: { type: Types.Text },
   husband: { type: Types.Text },
