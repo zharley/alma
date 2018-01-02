@@ -26,7 +26,7 @@ Member.add({
   startYear: { type: Types.Number },
   endYear: { type: Types.Number },
   email: { type: Types.Email },
-  dateOfDeath: { type: Types.Date },
+  dateOfDeath: { type: Types.Text },
   change: { type: Types.Text },
   changeReason: { type: Types.Textarea },
   comments: { type: Types.Textarea }
