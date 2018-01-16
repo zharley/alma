@@ -17,6 +17,7 @@ Member.add({
   contactViaEmail: { type: Boolean, default: false },
   apt: { type: Types.Text },
   address: { type: Types.Text },
+  address2: { type: Types.Text },
   city: { type: Types.Text },
   province: { type: Types.Text },
   postalCode: { type: Types.Text },
