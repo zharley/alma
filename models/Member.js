@@ -5,6 +5,7 @@ var Member = new keystone.List('Member', {
   track: true,
   searchFields: 'firstName lastName maidenName city',
   map: { name: 'lastName' },
+  nodelete: true,
 });
 
 Member.add({
