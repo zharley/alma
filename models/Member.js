@@ -13,7 +13,7 @@ Member.add({
   firstName: { type: Types.Text },
   lastName: { type: Types.Text, required: true, initial: true },
   maidenName: { type: Types.Text },
-  status: { type: Types.Select, options: 'active, inactive, deceased', default: 'active' },
+  status: { type: Types.Select, options: 'active, noNewsletter, inactive, deceased', default: 'active' },
   contactViaMail: { type: Boolean, default: false },
   contactViaEmail: { type: Boolean, default: false },
   apt: { type: Types.Text },
@@ -31,7 +31,7 @@ Member.add({
   dateOfDeath: { type: Types.Text },
   change: { type: Types.Text },
   changeReason: { type: Types.Textarea },
-  comments: { type: Types.Textarea }
+  comments: { type: Types.Textarea },
 });
 
 Member.defaultSort = 'lastName';
